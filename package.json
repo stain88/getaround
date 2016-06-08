@@ -1,0 +1,30 @@
+{
+  "name": "getaround",
+  "version": "1.0.0",
+  "description": "Get a Round",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stain88/getaround.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stain88/getaround/issues"
+  },
+  "homepage": "https://github.com/stain88/getaround#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.6",
+    "body-parser": "^1.15.1",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.2.0",
+    "ejs": "^2.4.2",
+    "express": "^4.13.4",
+    "method-override": "^2.3.6",
+    "mongoose": "^4.4.20",
+    "morgan": "^1.7.0"
+  }
+}
