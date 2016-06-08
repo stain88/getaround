@@ -16,7 +16,7 @@ function register(req, res, next) {
     return res.status(200).json({
       success: true,
       message: "Thank you for signing up",
-      token: token, 
+      token: token,
       user: user
     });
   });
@@ -35,7 +35,7 @@ function login(req, res, next) {
     var token = jwt.sign(user, secret, {expiresIn:60*60*24});
 
     return res.status(200).json({
-      success: true, 
+      success: true,
       message: "Welcome back",
       token: token,
       user: user
